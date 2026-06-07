@@ -68,10 +68,55 @@ const testimonials = [
 ];
 
 const team = [
-  { name: 'Malik Abdul Ghafoor', role: 'Chief Executive Officer', initials: 'MG', image: '/ghafoor.avif' },
-  { name: 'Syed Ali', role: 'Chief Technology Officer', initials: 'SA', image: '/syed.avif' },
-  { name: 'Mian Dad', role: 'Chief Marketing Officer', initials: 'MD', image: '/miandad.avif' },
-  { name: 'Farooq', role: 'Chief Product Officer', initials: 'F', image: '/farooq.avif' },
+  { 
+    name: 'Malik Abdul Ghafoor', 
+    role: 'Chief Executive Officer', 
+    initials: 'MG', 
+    bio: 'Visionary leader driving digital innovation and scaling businesses across Pakistan.', 
+    image: '/ghafoor.avif' 
+  },
+  { 
+    name: 'Syed Ali', 
+    role: 'Chief Technology Officer', 
+    initials: 'SA', 
+    bio: 'Tech strategist specializing in scalable cloud architectures and cutting-edge web development.', 
+    image: '/syed.avif' 
+  },
+  { 
+    name: 'Mian Dad', 
+    role: 'Chief Marketing Officer', 
+    initials: 'MD', 
+    bio: 'Creative growth expert with a passion for global brand scaling and data-driven marketing.', 
+    image: '/miandad.avif' 
+  },
+  { 
+    name: 'Farooq', 
+    role: 'Chief Product Officer', 
+    initials: 'F', 
+    bio: 'Product perfectionist dedicated to turning complex ideas into seamless user experiences.', 
+    image: '/farooq.avif' 
+  },
+  { 
+    name: 'Hadi', 
+    role: 'Social Media Manager', 
+    initials: 'H', 
+    bio: 'Digital storyteller mastering audience engagement and crafting impactful brand identities online.', 
+    image: '/hadi.avif' 
+  },
+  { 
+    name: 'Waseem', 
+    role: 'UI / UX Designer', 
+    initials: 'W', 
+    bio: 'Visual artist focused on crafting intuitive, stunning, and user-centric digital interfaces.', 
+    image: '/waseem.avif' 
+  },
+  { 
+    name: 'Ghullam Abbas', 
+    role: 'Frontend Developer', 
+    initials: 'GA', 
+    bio: 'Code perfectionist specialized in building responsive, high-performance web applications.', 
+    image: '/abbas.avif' 
+  },
 ];
 
 export default function Home() {
