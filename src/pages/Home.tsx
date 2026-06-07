@@ -8,9 +8,9 @@ import ScrollReveal from '../components/ScrollReveal';
 
 const stats = [
   { label: 'Years of Experience', value: '2+' },
-  { label: 'Global Clients', value: '50+' },
-  { label: 'Team Members', value: '30+' },
-  { label: 'Projects Completed', value: '80+' },
+  { label: 'Global Clients', value: '40+' },
+  { label: 'Team Members', value: '10+' },
+  { label: 'Projects Completed', value: '70+' },
 ];
 
 const services = [
@@ -51,27 +51,27 @@ const projects = [
 
 const testimonials = [
   {
-    text: "Haxudio delivered our website in record time. Exceptional quality and communication.",
-    author: "James K.",
-    location: "UK"
+    text: "Working with Haxudio was an absolute game-changer for our business. They built a flawless, high-performance website with incredible speed. Exceptional tech expertise!",
+    author: "Jamil Ahmed",
+    location: "Lahore, Pakistan"
   },
   {
-    text: "Their social media team tripled our engagement in just 2 months. Highly recommended!",
-    author: "Sarah L.",
-    location: "Canada"
+    text: "Haxudio ne hamari business website ko aik naya look diya hai. Quetta me baith kar aisi world-class web development aur professional design services milna yaqeen kare ke kamaal hai.",
+    author: "Khan Wali",
+    location: "Quetta, Pakistan"
   },
   {
-    text: "Best digital agency we've worked with. Professional, creative, and reliable.",
-    author: "Ahmed R.",
-    location: "UAE"
+    text: "Inki team ka kaam bohot saaf aur professional hai. Hamare e-commerce store ke user experience aur speed ko behtar karne me Haxudio ne bohot madad ki. Best digital agency!",
+    author: "Hamza Malik",
+    location: "Punjab, Pakistan"
   },
 ];
 
 const team = [
-  { name: 'Malik Abdul Ghafoor', role: 'CEO', initials: 'MG', image: '/CEO.avif' },
-  { name: 'Syed Ali', role: 'CTO', initials: 'SA', image: '/CTO.avif' },
-  { name: 'Mian Dad', role: 'CMO', initials: 'MD', image: '/CMO.avif' },
-  { name: 'Farooq', role: 'CPO', initials: 'F', image: '/CPO.avif' },
+  { name: 'Malik Abdul Ghafoor', role: 'Chief Executive Officer', initials: 'MG', image: '/ghafoor.avif' },
+  { name: 'Syed Ali', role: 'Chief Technology Officer', initials: 'SA', image: '/syed.avif' },
+  { name: 'Mian Dad', role: 'Chief Marketing Officer', initials: 'MD', image: '/miandad.avif' },
+  { name: 'Farooq', role: 'Chief Product Officer', initials: 'F', image: '/farooq.avif' },
 ];
 
 export default function Home() {

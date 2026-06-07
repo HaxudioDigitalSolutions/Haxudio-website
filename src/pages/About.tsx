@@ -3,16 +3,19 @@ import { Eye, Target, Users, Award, Globe, Zap } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 
 const stats = [
-  { label: 'Projects Completed', value: '80+' },
-  { label: 'Global Clients', value: '50+' },
-  { label: 'Team Members', value: '30+' },
   { label: 'Years of Experience', value: '2+' },
+  { label: 'Global Clients', value: '40+' },
+  { label: 'Team Members', value: '10+' },
+  { label: 'Projects Completed', value: '70+' },
 ];
 const team = [
-  { name: 'Malik Abdul Ghafoor', role: 'CEO', initials: 'MG', bio: 'Visionary leader driving digital innovation in Pakistan.', image: '/CEO.avif' },
-  { name: 'Syed Ali', role: 'CTO', initials: 'SA', bio: 'Tech strategist specializing in scalable cloud architectures.', image: '/CTO.avif' },
-  { name: 'Mian Dad', role: 'CMO', initials: 'MD', bio: 'Creative growth expert with a passion for global brand scale.', image: '/CMO.avif' },
-  { name: 'Farooq', role: 'CPO', initials: 'F', bio: 'Product perfectionist ensuring every pixel drives value.', image: '/CPO.avif' },
+  { name: 'Malik Abdul Ghafoor', role: 'Cheif Executive Officer', initials: 'MG', bio: 'Visionary leader driving digital innovation in Pakistan.', image: '/ghafoor.avif' },
+  { name: 'Syed Ali', role: 'Chief Technology Officer', initials: 'SA', bio: 'Tech strategist specializing in scalable cloud architectures.', image: '/syed.avif' },
+  { name: 'Mian Dad', role: 'Chief Marketing Officer', initials: 'MD', bio: 'Creative growth expert with a passion for global brand scale.', image: '/miandad.avif' },
+  { name: 'Farooq', role: 'Chief Product Officer', initials: 'F', bio: 'Product perfectionist ensuring every pixel drives value.', image: '/farooq.avif' },
+  { name: 'Hadi', role: 'Social Media Manager', initials: 'H', bio: '', image: '/hadi.avif' },
+  { name: 'Waseem', role: 'UI / UX Designer', initials: 'W', bio: '', image: '/waseem.avif' },
+  { name: 'Ghullam Abbas', role: 'Fronted Developer', initials: 'GA', bio: '', image: '/abbas.avif' },
 ];
 
 export default function About() {
